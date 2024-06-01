@@ -1,0 +1,9 @@
+name: NouveauPL
+version: 1.0
+author: clickdroit
+main: fr.clickdroit.nouveaupl.Main
+commands:
+  test:
+    description: Commande de test
+    permission: admin.test
+    permission-message: §cTu ne peux pas faire cette commande !
