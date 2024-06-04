@@ -7,3 +7,5 @@ commands:
     description: Commande de test
     permission: admin.test
     permission-message: §cTu ne peux pas faire cette commande !
+  teleportation:
+  hub:
