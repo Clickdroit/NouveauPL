@@ -9,3 +9,6 @@ commands:
     permission-message: §cTu ne peux pas faire cette commande !
   teleportation:
   hub:
+  tl:
+    description: Affiche tes coordonnées actuelles
+    usage: /tl

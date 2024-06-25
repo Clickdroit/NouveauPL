@@ -3,15 +3,12 @@ package fr.clickdroit.nouveaupl.Event;
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
 import org.bukkit.Material;
-import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.enchantments.Enchantment;
-import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.inventory.InventoryClickEvent;
-import org.bukkit.event.player.PlayerInteractAtEntityEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.inventory.Inventory;
@@ -19,7 +16,6 @@ import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import javax.swing.*;
 import java.util.Arrays;
 
 import static org.bukkit.Material.*;
@@ -43,7 +39,7 @@ public class Evenement implements Listener {
 
         player.getInventory().setItem(4,customsword);
 
-        ItemStack customwool = new ItemStack(Material.WOOL, 8, (byte)14);
+        ItemStack customwool = new ItemStack(GLASS, 1, (byte)14);
         player.getInventory().setHelmet(customwool);
         player.updateInventory();
 }
