@@ -39,8 +39,8 @@ public class Evenement implements Listener {
 
         player.getInventory().setItem(4,customsword);
 
-        ItemStack customwool = new ItemStack(GLASS, 1, (byte)14);
-        player.getInventory().setHelmet(customwool);
+        ItemStack customglass = new ItemStack(GLASS, 1, (byte)14);
+        player.getInventory().setHelmet(customglass);
         player.updateInventory();
 }
     @EventHandler
@@ -50,17 +50,12 @@ public class Evenement implements Listener {
         Action action = event.getAction();
         ItemStack it = event.getItem();
 
-        if(it != null && it.getType() == Material.NETHER_STAR){
-            if (action == Action.RIGHT_CLICK_AIR ){
-                player.sendMessage("§cTu viens de faire un clic");
-            }
-        }
         if (it.getType() == Material.COMPASS && it.hasItemMeta() && it.getItemMeta().hasDisplayName() && it.getItemMeta().getDisplayName().equalsIgnoreCase("§c Navigation")){
             Inventory inv = Bukkit.createInventory(null, 45,"§8 Mon coffre" );
 
             ItemStack glass = new ItemStack(STAINED_GLASS_PANE, 1);
             ItemMeta glassM = glass.getItemMeta();
-            glassM.setDisplayName("§aPassage en gm 3");
+            glassM.setDisplayName("§aPassage en Gm3 ");
             glass.setItemMeta(glassM);
             inv.setItem(0, glass);
             inv.setItem(1, glass);
@@ -98,6 +93,9 @@ public class Evenement implements Listener {
             event.setCancelled(true);
             player.closeInventory();
             switch (current.getType()) {
+
+                case WOOL:
+
 
                 case EYE_OF_ENDER:
                     player.setGameMode(GameMode.SPECTATOR);

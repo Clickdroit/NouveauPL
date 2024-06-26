@@ -9,10 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9e0faa4-0c22-49e6-8492-854f9e2f309b" name="Changes" comment="Nouveau : Un GUI est ouvert quand on clique sur la boussole">
-      <change afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Cmd/TlCommand.java" afterDir="false" />
+    <list default="true" id="f9e0faa4-0c22-49e6-8492-854f9e2f309b" name="Changes" comment="Nouveau : Plein de modif tqt">
+      <change afterPath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Cmd/CoordsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Teams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NouveauPL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NouveauPL.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Cmd/TestCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Cmd/TestCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Cmd/TlCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Cmd/TlCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Event/Evenement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Event/Evenement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/clickdroit/nouveaupl/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
@@ -61,20 +65,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/dev/WereWolfPlugin&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/dev/NouveauPL/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/dev/umaterial",
+    "onboarding.tips.debug.path": "E:/dev/NouveauPL/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="fr.clickdroit.nouveaupl" />
@@ -123,12 +127,29 @@
       <option name="project" value="LOCAL" />
       <updated>1717521448292</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Nouveau : Plein de modif tqt">
+      <option name="closed" value="true" />
+      <created>1719306385750</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719306385750</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Nouveau : Plein de modif tqt">
+      <option name="closed" value="true" />
+      <created>1719306397152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719306397152</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Oui" />
     <MESSAGE value="Nouveau : Un GUI est ouvert quand on clique sur la boussole" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nouveau : Un GUI est ouvert quand on clique sur la boussole" />
+    <MESSAGE value="Nouveau : Plein de modif tqt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nouveau : Plein de modif tqt" />
   </component>
 </project>

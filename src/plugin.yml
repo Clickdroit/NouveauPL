@@ -12,3 +12,6 @@ commands:
   tl:
     description: Affiche tes coordonnées actuelles
     usage: /tl
+  coords:
+    description: Affiche tes coordonnées actuelles
+    usage: /coords

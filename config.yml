@@ -1,3 +1,8 @@
-messages:
-  # message de test
-  test: "Salut sa fonctionne"
+messages: "Cette commande ne peut être utilisée que par un joueur."
+kits:
+  soldat:
+    id: 50
+  tank:
+    id: 23
+  guerrier:
+    id: 3
